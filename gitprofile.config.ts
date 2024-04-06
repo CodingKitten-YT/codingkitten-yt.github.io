@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'KittenGames',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Simple game website that loads games from a json file.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/CodingKitten-YT/KittenGames-gamelibrary/main/Screenshot%202024-04-06%2011.58.39.png',
+          link: 'https://games.kittendev.xyz/',
         },
         {
-          title: 'Project Name',
+          title: 'KittenGames Docs',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Documentation on selfhosting/customizing KittenGames made with VitePress',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/CodingKitten-YT/kittengames-docs/main/Screenshot%202024-04-06%2012.01.16.png',
+          link: 'https://kittengames-docs.vercel.app/',
         },
       ],
     },
@@ -57,21 +57,21 @@ const CONFIG = {
     imageURL: 'https://avatars.githubusercontent.com/u/121097932?s=400&u=0413e75c8351a4d90303c7f411ea7bd5dfa131cb&v=4',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'codingkitten_', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'codingkitten',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.kittendev.xyz/',
     phone: '',
     email: 'roozendaalberend@gmail.com',
   },
@@ -164,7 +164,7 @@ const CONFIG = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '4934355',
     snippetVersion: 6,
   },
   themeConfig: {
@@ -179,7 +179,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -231,7 +231,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };
