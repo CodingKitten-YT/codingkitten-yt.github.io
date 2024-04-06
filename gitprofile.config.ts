@@ -28,31 +28,10 @@ const CONFIG = {
         projects: ['CodingKitten-YT/kittengames', 'CodingKitten-YT/kittengames'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-      ],
-    },
+    external: {},
   },
   seo: {
-    title: 'Portfolio of CodingKitten',
+    title: 'CodingKitten',
     description: 'Hey im CodingKitten and this is my portfolio =]',
     imageURL: 'https://avatars.githubusercontent.com/u/121097932?s=400&u=0413e75c8351a4d90303c7f411ea7bd5dfa131cb&v=4',
   },
